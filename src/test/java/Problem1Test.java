@@ -23,7 +23,7 @@ public class Problem1Test {
         int targetNotExist = 1;
         int expectNotExist = -1;
         int targetExist = 9;
-        int expectExist = 0;
+        int expectExist = -1;
 
         int actual = Problem1.binarySearch(inputs, targetNotExist);
         assertEquals(expectNotExist, actual);
